@@ -5,7 +5,7 @@ import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
 
 class WrapperDownloadTask extends DefaultTask {
-    String gradleVersion = "4.4.1"
+    String gradleVersion = ""
     String gradleDownloadBase = 'https://services.gradle.org/distributions'
     File destinationDir
 
