@@ -2,7 +2,7 @@
 
 Current distribution URL:
 
-https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.4.2/gradle-credential-wrapper-4.4.2-bin.zip
+https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.6.0/gradle-credential-wrapper-4.6.0-bin.zip
 
 ## Purpose 
 This custom Gradle distribution currently provides two main functions.
@@ -49,7 +49,7 @@ gradle-credential-wrapper contains a convenience task which allows you to update
 
 The task may be run as follows:
 
-`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=gradle-credential-wrapper-4.4.2-bin.zip`
+`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.6.0/gradle-credential-wrapper-4.6.0-bin.zip`
 
 **_Warning:_** If you insert an invalid URL, you will break the wrapper.
 If you break the wrapper via an invalid URL, you will have to set the wrapper *distributionUrl* manually, as described above.
@@ -178,7 +178,7 @@ the major and minor version numbers of the gradle version it is wrapping
 Since all versions of this project will be wrapping the same major and minor versions of the gradle wrapper, patch updates 
 will incorporate patch versions of the wrapper and possible changes to this project.
 For example, if the gradle version you want bundled with the credentials is 4.4.1, you might need to set your distribution 
-URL to version 4.4.5 of the gradle-credential-wrapper (due to improvements, for example).
+URL to version 4.4.2 of the gradle-credential-wrapper (due to improvements, for example).
 
 ## Notes
 This project was partially inspired by the example at 
