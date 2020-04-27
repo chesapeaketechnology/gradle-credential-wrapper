@@ -49,7 +49,7 @@ gradle-credential-wrapper contains a convenience task which allows you to update
 
 The task may be run as follows:
 
-`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-4.6.0-bin.zip`
+`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip`
 
 **_Warning:_** If you insert an invalid URL, you will break the wrapper.
 If you break the wrapper via an invalid URL, you will have to set the wrapper *distributionUrl* manually, as described above.
