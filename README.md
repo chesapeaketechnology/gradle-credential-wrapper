@@ -2,7 +2,7 @@
 
 Current distribution URL:
 
-https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip
+https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/6.7.1/gradle-credential-wrapper-6.7.1-bin.zip
 
 ## Purpose 
 This custom Gradle distribution currently provides two main functions.
