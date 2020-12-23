@@ -1,4 +1,4 @@
-package com.chesapeaketechnology.wrapper
+package com.chesapeaketechnology.gradle.wrapper
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.OutputFile
