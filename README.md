@@ -182,8 +182,9 @@ URL to version 4.4.2 of the gradle-credential-wrapper (due to improvements, for 
 
 ## Previous Distribution Versions
 
-[4.10.3][11] 
+[4.10.3][11]
 
+[5.7.1][12]
 
 ## Notes
 This project was partially inspired by the example at 
@@ -199,4 +200,5 @@ This project was partially inspired by the example at
 [8]: https://docs.gradle.org/current/userguide/plugins.html#sec:plugin_markers
 [9]: https://medium.com/tooploox/where-do-gradle-properties-come-from-bf77e43ee572
 [10]: https://docs.gradle.org/current/userguide/plugins.html#sec:custom_plugin_repositories
-[11]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.10.3/gradle-credential-wrapper-5.6.4-bin.zip
+[11]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.10.3/gradle-credential-wrapper-4.10.3-bin.zip
+[12]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip
