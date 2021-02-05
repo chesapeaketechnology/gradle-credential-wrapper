@@ -4,6 +4,7 @@ import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.OutputFile
 import org.gradle.api.tasks.TaskAction
 
+@SuppressWarnings("unused")
 class WrapperDownloadTask extends DefaultTask {
     String gradleVersion = ""
     String gradleDownloadBase = 'https://services.gradle.org/distributions'

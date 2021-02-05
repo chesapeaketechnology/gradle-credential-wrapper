@@ -2,7 +2,7 @@
 
 Current distribution URL:
 
-https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip
+https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/6.8.2/gradle-credential-wrapper-6.8.2-bin.zip
 
 ## Purpose 
 This custom Gradle distribution currently provides two main functions.
@@ -49,7 +49,7 @@ gradle-credential-wrapper contains a convenience task which allows you to update
 
 The task may be run as follows:
 
-`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip`
+`./gradlew updateDistributionUrl -PdistributionUrl=https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/6.8.2/gradle-credential-wrapper-6.8.2-bin.zip`
 
 **_Warning:_** If you insert an invalid URL, you will break the wrapper.
 If you break the wrapper via an invalid URL, you will have to set the wrapper *distributionUrl* manually, as described above.
@@ -186,6 +186,8 @@ URL to version 4.4.2 of the gradle-credential-wrapper (due to improvements, for 
 
 [5.7.1][12]
 
+[6.7.2][13]
+
 ## Notes
 This project was partially inspired by the example at 
 [Gradle Goodness: Distribute Custom Gradle in Our Company][1] and is built on the work of the [gradle-credentials-plugin][5].
@@ -202,3 +204,4 @@ This project was partially inspired by the example at
 [10]: https://docs.gradle.org/current/userguide/plugins.html#sec:custom_plugin_repositories
 [11]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/4.10.3/gradle-credential-wrapper-4.10.3-bin.zip
 [12]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/5.6.4/gradle-credential-wrapper-5.6.4-bin.zip
+[13]: https://bintray.com/chesapeaketechnology/maven-public/download_file?file_path=com/chesapeaketechnology/wrapper/gradle-credential-wrapper/6.7.1/gradle-credential-wrapper-6.7.1-bin.zip
